@@ -1,0 +1,35 @@
+set font "Cascadia Code 12"
+
+set recolor "true"
+
+set completion-bg "#071013"
+set completion-fg "#c4ced1"
+set completion-group-bg "#071013"
+set completion-group-fg "#4B5E65"
+set completion-highlight-bg "#c4ced1"
+set completion-highlight-fg "#071013"
+
+set recolor-lightcolor "#071013"
+set recolor-darkcolor "#c4ced1"
+set default-bg "#071013"
+
+set inputbar-bg "#071013"
+set inputbar-fg "#c4ced1"
+set notification-bg "#071013"
+set notification-fg "#c4ced1"
+set notification-error-bg "#305B66"
+set notification-error-fg "#c4ced1"
+set notification-warning-bg "#305B66"
+set notification-warning-fg "#c4ced1"
+set statusbar-bg "#071013"
+set statusbar-fg "#c4ced1"
+set index-bg "#071013"
+set index-fg "#c4ced1"
+set index-active-bg "#c4ced1"
+set index-active-fg "#071013"
+set render-loading-bg "#071013"
+set render-loading-fg "#c4ced1"
+
+set window-title-home-tilde true
+set statusbar-basename true
+set selection-clipboard clipboard

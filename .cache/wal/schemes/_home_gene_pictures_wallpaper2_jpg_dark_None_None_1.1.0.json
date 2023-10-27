@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/gene/pictures/wallpaper2.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0f1016",
+        "foreground": "#b9b7bd",
+        "cursor": "#b9b7bd"
+    },
+    "colors": {
+        "color0": "#0f1016",
+        "color1": "#4B4C52",
+        "color2": "#5D5F69",
+        "color3": "#9F575A",
+        "color4": "#BD5E50",
+        "color5": "#B69364",
+        "color6": "#667388",
+        "color7": "#b9b7bd",
+        "color8": "#818084",
+        "color9": "#4B4C52",
+        "color10": "#5D5F69",
+        "color11": "#9F575A",
+        "color12": "#BD5E50",
+        "color13": "#B69364",
+        "color14": "#667388",
+        "color15": "#b9b7bd"
+    }
+}

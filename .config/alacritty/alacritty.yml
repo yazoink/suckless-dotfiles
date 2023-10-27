@@ -1,0 +1,49 @@
+window:
+  opacity: 0.9
+
+font:
+  normal:
+    family: Cascadia Code
+    style: Regular
+  size: 14
+  bold:
+    family: Cascadia Code
+    style: Bold
+  size: 14
+  italic:
+    family: Cascadia Code
+    style: Italic
+  size: 14
+  bold_italic:
+    family: Cascadia Code
+    style: Italic
+  size: 14
+
+colors:
+  # Default colors
+  primary:
+    background: '0x071013'
+    foreground: '0xc4ced1'
+
+  # Normal colors
+  normal:
+    black:   '0x071013'
+    red:     '0x305b66'
+    green:   '0x4b5e65'
+    yellow:  '0x546970'
+    blue:    '0x657c83'
+    magenta: '0x428c98'
+    cyan:    '0x728a91'
+    white:   '0xc4ced1'
+
+  # Bright colors
+  bright:
+    black:   '0x899092'
+    red:     '0x305b66'
+    green:   '0x4b5e65'
+    yellow:  '0x546970'
+    blue:    '0x657c83'
+    magenta: '0x428c98'
+    cyan:    '0x728a91'
+    white:   '0xc4ced1'
+
