@@ -1,0 +1,40 @@
+#!/bin/bash
+
+dmenu_cmd="dmenu -i"
+
+choices="Librewolf\nAlacritty\nRanger\nKeePassXC\nDiscord\nSteam\nSignal\nGIMP\nMyPaint\nOpenShot\nAudacity\nNicotine+\nFzf\nCalculator\nPrismLauncher\nHTOP\nIftop\nMinecraft\nPacketTracer\nOBS\nqBittorrent\nVSCode\nBastet\nWebcam\nMoon-Buggy\nnSnake\nTTY-Solitaire\nColorPicker\nPacman4Console\nPrinterConfig"
+
+choice=$(printf "$choices" | $dmenu_cmd -p ">")
+
+case $choice in
+	Librewolf) librewolf ;;
+	Terminal) alacritty ;;
+	Ranger) alacritty -e ranger ;;
+	KeePassXC) keepassxc ;;
+	Discord) webcord ;;
+    Steam) steam ;;
+	Signal) signal-desktop ;;
+	GIMP) gimp ;;
+	MyPaint) mypaint ;;
+	OpenShot) openshot-qt ;;
+	Audacity) audacity ;;
+	Nicotine+) nicotine ;;
+	Fzf) alacritty -e fzf ;;
+	Calculator) galculator ;;
+	PrismLauncher) prismlauncher ;;
+	HTOP) alacritty -e htop ;;
+    Iftop) alacritty -e sudo iftop ;;
+	Minecraft) prismlauncher ;;
+    PacketTracer) packettracer ;;
+    OBS) obs ;;
+    qBittorrent) qbittorrent ;;
+    VSCode) cd ~ && code ;;
+    Bastet) alacritty -e bastet ;;
+    Webcam) webcam ;;
+    Moon-Buggy) alacritty -e moon-buggy ;;
+    nSnake) alacritty -e nsnake ;;
+    TTY-Solitaire) alacritty -e ttysolitaire ;;
+    ColorPicker) gcolor3 ;;
+	Pacman4Console) alacritty -e pacman4console ;;
+    PrinterConfig) system-config-printer ;;
+esac

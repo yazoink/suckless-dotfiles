@@ -1,0 +1,18 @@
+#!/bin/bash
+
+#cat /sys/class/power_supply/BAT0/capacity
+#read bat
+
+bat=$(cat /sys/class/power_supply/BAT0/capacity)
+
+if [[ $bat -gt 90 ]]; then
+	echo " $bat%"
+elif [[ $bat -gt 75  ]]; then
+	echo " $bat%"
+elif [[ $bat -gt 60  ]]; then
+	echo " $bat%"
+elif [[ $bat -gt 15  ]]; then
+	echo " $bat%"
+else
+	echo " $bat%"
+fi
