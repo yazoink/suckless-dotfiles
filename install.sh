@@ -28,7 +28,7 @@ wallpaper () {
     echo "Enter the full path to where you want the wallpaper to be saved (excluding '/wallpaper.png'):"
     read wallpath
     if [[ ! -d $wallpath ]]; then
-        mkdir -p wallpath
+        mkdir -p $wallpath
     fi
     cp wallpaper.png $wallpath
     sed "s+~/pictures/+$wallpath/+" .xinitrc
