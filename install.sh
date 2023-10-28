@@ -5,7 +5,7 @@ installdeps () {
 }
 
 copyfiles () {
-    cp .xinitrc .bashrc ~/
+    cp .xinitrc .bashrc .bash_profile ~/
     dirs=(.cache .local/bin .config)
     for dir in "${dirs[@]}"; do
         if [[ ! -d ~/.$dir ]]; then
